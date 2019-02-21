@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3974657b-a419-4d9b-9433-8a60bf0fab06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/conceitosBasicos/CuboAndQuadrado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conceitosBasicos/IMC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conceitosBasicos/areaTriangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conceitosBasicos/celsiusToFahrenheit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conceitosBasicos/fahrenheitToCelsius.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conceitosBasicos/bhaskara.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cursoUdemy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cursoUdemy/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conceitosBasicos/areaTriangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conceitosBasicos/areaTriangulo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/conceitosBasicos/IMC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="255">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,11 +72,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/conceitosBasicos/areaTriangulo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/conceitosBasicos/bhaskara.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -107,6 +114,7 @@
         <option value="$PROJECT_DIR$/src/conceitosBasicos/IMC.java" />
         <option value="$PROJECT_DIR$/src/conceitosBasicos/CuboAndQuadrado.java" />
         <option value="$PROJECT_DIR$/src/conceitosBasicos/areaTriangulo.java" />
+        <option value="$PROJECT_DIR$/src/conceitosBasicos/bhaskara.java" />
       </list>
     </option>
   </component>
@@ -151,7 +159,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550767823278" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550769729967" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -165,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CuboAndQuadrado">
+  <component name="RunManager" selected="Application.bhaskara">
     <configuration name="CuboAndQuadrado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="conceitosBasicos.CuboAndQuadrado" />
       <module name="cursoUdemy" />
@@ -192,18 +200,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="areaTriangulo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conceitosBasicos.areaTriangulo" />
       <module name="cursoUdemy" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="conceitosBasicos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="celsiusToFahrenheit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="conceitosBasicos.celsiusToFahrenheit" />
+    <configuration name="bhaskara" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conceitosBasicos.bhaskara" />
       <module name="cursoUdemy" />
       <extension name="coverage">
         <pattern>
@@ -230,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bhaskara" />
+        <item itemvalue="Application.areaTriangulo" />
         <item itemvalue="Application.CuboAndQuadrado" />
         <item itemvalue="Application.IMC" />
         <item itemvalue="Application.fahrenheitToCelsius" />
-        <item itemvalue="Application.celsiusToFahrenheit" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -249,12 +260,20 @@
       <option name="presentableId" value="Default" />
       <updated>1550675587973</updated>
       <workItem from="1550675593497" duration="762000" />
-      <workItem from="1550761347507" duration="5116000" />
+      <workItem from="1550761347507" duration="6649000" />
     </task>
+    <task id="LOCAL-00001" summary="Primeiro Exercicio">
+      <created>1550767875574</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550767875574</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5878000" />
+    <option name="totallyTimeSpent" value="7411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -294,6 +313,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Primeiro Exercicio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primeiro Exercicio" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -322,16 +345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/conceitosBasicos/IMC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/conceitosBasicos/CuboAndQuadrado.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -342,10 +355,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/conceitosBasicos/IMC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/conceitosBasicos/areaTriangulo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/conceitosBasicos/bhaskara.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
